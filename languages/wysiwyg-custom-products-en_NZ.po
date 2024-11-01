@@ -1,0 +1,1125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-25 10:16+1300\n"
+"PO-Revision-Date: 2020-01-25 10:17+1300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_NZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+"X-Poedit-SearchPathExcluded-2: *.txt\n"
+"X-Poedit-SearchPathExcluded-3: .idea\n"
+"X-Poedit-SearchPathExcluded-4: .svn\n"
+"X-Poedit-SearchPathExcluded-5: branches\n"
+"X-Poedit-SearchPathExcluded-6: tags\n"
+"X-Poedit-SearchPathExcluded-7: trunk\n"
+"X-Poedit-SearchPathExcluded-8: tests\n"
+
+#. TRANSLATORS: Templates tab title
+#: admin/class-admin.php:141
+msgid "Layouts"
+msgstr ""
+
+#. TRANSLATORS: Settings tab title
+#. TRANSLATORS: Plugin settings page title - added to the translated plugin title
+#: admin/class-admin.php:149 admin/class-plugin.php:217
+#: admin/class-settings.php:135
+msgid "Settings"
+msgstr ""
+
+#. TRANSLATORS: Ajax error message returned when an update on a non existent object is attempted
+#: admin/class-ajax-wcp-object.php:95 admin/class-ajax-wcp-object.php:115
+#, php-format
+msgid "%s does not exist"
+msgstr ""
+
+#. TRANSLATORS: Ajax error message returned when an update on a corrupted object is attempted
+#: admin/class-ajax-wcp-object.php:122
+#, php-format
+msgid "Cannot update invalid %s"
+msgstr ""
+
+#. TRANSLATORS: Ajax error message returned when trying to save a new object with the same name as an existing one
+#: admin/class-ajax-wcp-object.php:135 admin/class-ajax-wcp-object.php:165
+#, php-format
+msgid "Cannot save to an existing %s"
+msgstr ""
+
+#. TRANSLATORS: Ajax error message returned when trying to delete an object than no longer exists
+#: admin/class-ajax-wcp-object.php:204
+#, php-format
+msgid "Unable to delete a non-existing %s"
+msgstr ""
+
+#. TRANSLATORS: filter effect mask entry area label
+#: admin/class-effect.php:55
+msgid "Mask style"
+msgstr ""
+
+#. TRANSLATORS: filter effect entry area label
+#: admin/class-effect.php:63
+msgid "Filter Effect"
+msgstr ""
+
+#. TRANSLATORS: Entering an SVG Effect help label
+#: admin/class-effect.php:78
+msgid "Defining a Effect"
+msgstr ""
+
+#. TRANSLATORS: Entering an SVG Filter Effect
+#: admin/class-effect.php:81
+msgid ""
+"Create effects by pasting or typing the 'effect' or 'd' value here. Don't "
+"start with a move (M or m) or use M 0 0 so that the x and y positions can be "
+"applied in the layout screen."
+msgstr ""
+
+#. TRANSLATORS: Heading for whether settings should be removed from database when plugin is deleted
+#: admin/class-global.php:49
+msgid "Clean plugin delete"
+msgstr ""
+
+#. TRANSLATORS: Description about whether settings should be removed from database when plugin is deleted
+#: admin/class-global.php:60
+msgid ""
+"Delete all plugin information (including associations with product) when the "
+"plugin is deleted. Clear if changing plugin versions."
+msgstr ""
+
+#. TRANSLATORS: Heading for whether Microsoft browser messages should be displayed to the customers
+#: admin/class-global.php:68
+msgid "Display IE message"
+msgstr ""
+
+#. TRANSLATORS: Description about whether Microsoft browser messages should be displayed to the customers
+#: admin/class-global.php:79
+msgid ""
+"Display Microsoft browser (IE and Edge) SVG incompatibility messages on the "
+"customer entry product page."
+msgstr ""
+
+#. TRANSLATORS: prompt for text resizing options - Premium/Professional versions only
+#: admin/class-global.php:90
+msgid "Text resizing default"
+msgstr ""
+
+#. TRANSLATORS: all lines of text resize option - Premium/Professional versions only
+#: admin/class-global.php:96 admin/class-products.php:175
+msgid "Resize all text lines together"
+msgstr ""
+
+#. TRANSLATORS: lines resized individually option - Premium/Professional versions only
+#: admin/class-global.php:99 admin/class-products.php:179
+msgid "Resize each line separately"
+msgstr ""
+
+#. TRANSLATORS: description and brief instructions about how the first resizing option works when the product is being edited - Premium/Professional versions only
+#: admin/class-global.php:103
+msgid ""
+"The first option causes all of the text lines resize to the smallest font "
+"size required to display the customer's message."
+msgstr ""
+
+#. TRANSLATORS: description and brief instructions about how the second resizing option works when the product is being edited - Premium/Professional versions only
+#: admin/class-global.php:107
+msgid ""
+"The second option causes each line to resize to the smallest font suitable "
+"for that line."
+msgstr ""
+
+#. TRANSLATORS: Heading for the change font link.
+#: admin/class-global.php:117
+msgid "Edit USER.CSS"
+msgstr ""
+
+#. TRANSLATORS: Change font button - free version.
+#: admin/class-global.php:122
+msgid "Change font"
+msgstr ""
+
+#. TRANSLATORS: Changing font warning message - free version only.
+#: admin/class-global.php:124
+msgid "(affects all layouts and products.)"
+msgstr ""
+
+#. TRANSLATORS: Change font button - premium/Professional versions
+#: admin/class-global.php:126 admin/class-global.php:142
+msgid "Change fonts or styles"
+msgstr ""
+
+#. TRANSLATORS: Changing fonts help - free version
+#: admin/class-global.php:164
+msgid ""
+"Change font for all layouts and products by using link to edit stylesheet."
+msgstr ""
+
+#. TRANSLATORS: Changing fonts help- premium/Professional versions
+#: admin/class-global.php:167 admin/class-global.php:196
+msgid "Change fonts and CSS styles in use by using link to edit stylesheet."
+msgstr ""
+
+#. TRANSLATORS: Global plugin options help tab title
+#: admin/class-global.php:173
+msgid "Global Plugin Options"
+msgstr ""
+
+#. TRANSLATORS: introduction to help text about global settings section
+#: admin/class-global.php:176
+msgid "This section is for any options that are plugin (not layout) wide."
+msgstr ""
+
+#. TRANSLATORS: help text clean plugin delete checkbox
+#: admin/class-global.php:178
+msgid ""
+"Clean plugin delete: If this is checked (the default) *ALL* data associated "
+"with the plugin is removed when the plugin is deleted. \n"
+"\t\t\tIf it is not checked, then the data in the database is retained. "
+"Useful if upgrading or re-installing."
+msgstr ""
+
+#. TRANSLATORS: Description about whether Microsoft browser messages should be displayed to the customers
+#: admin/class-global.php:182
+msgid ""
+"Display IE message: If this is checked the Microsoft browser messages "
+"associated with the layouts are shown to the customer. If it is not checked, "
+"then the messages are not displayed."
+msgstr ""
+
+#. TRANSLATORS: help text text resizing select list - premium/Professional versions only
+#: admin/class-global.php:187
+msgid ""
+"Text resizing default: Choose an option to apply to new products or any "
+"products that have not had the option explicitly set."
+msgstr ""
+
+#. TRANSLATORS: Heading for premium plugin promotion panel
+#: admin/class-global.php:214
+msgid "Want more features?"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin features heading
+#: admin/class-global.php:232
+msgid "WITH THE PREMIUM VERSION YOU CAN"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:238
+msgid "Use more than one text field"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:243
+msgid "Use select/dropdown to choose messages"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:246
+msgid ""
+"Single line or multiple lines in one go. Use multiple single lines choices "
+"to offer a range of messages."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:251
+msgid "Load different select/dropdown messages"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:254
+msgid "Use the same select(s) but the choices are defined product by product."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:260
+msgid "Add overlay images on the product image"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:263
+msgid "Can reduce the number of product images you need to make."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:268
+msgid "Add background images to a product"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:271
+msgid "Make your products pop with different backgrounds."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:276
+msgid "Different fonts and/or colors"
+msgstr "Different fonts and/or colours"
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:279
+msgid "On a line by line basis for each layout."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:284
+msgid "Customer font and color choices"
+msgstr "Customer font and colour choices"
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:287
+msgid "Offer the choice to your customer as well!"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:292
+msgid "Predefine part of the message"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:295
+msgid ""
+"Use the same layout and product images on totally different product types."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:300
+msgid "Modify form labels/captions"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:303
+msgid ""
+"Use the same input field(s), but change the captions to reflect the product"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:308
+msgid "Resize text lines individually"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:311
+msgid ""
+"Either resize all text to smallest font or each line so it fits template."
+msgstr ""
+
+#. TRANSLATORS: Premium plugin feature
+#: admin/class-global.php:316
+msgid "Upgrades and support for one year"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin price prefix
+#: admin/class-global.php:320
+msgid "All for only"
+msgstr ""
+
+#. TRANSLATORS: How to learn about the premium plugin
+#: admin/class-global.php:327
+msgid "Click on the above links to try out the feature or watch this"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin video title
+#: admin/class-global.php:329
+msgid "Demonstration Video"
+msgstr ""
+
+#. TRANSLATORS: Premium plugin - more learning stuff
+#: admin/class-global.php:332
+msgid "to get a quick idea of how easy it is to use."
+msgstr ""
+
+#. TRANSLATORS: Professional plugin version advanced information
+#: admin/class-global.php:338
+msgid "** COMING SOON **"
+msgstr ""
+
+#. TRANSLATORS: Professional plugin version advanced information
+#: admin/class-global.php:340
+msgid "A Professional version"
+msgstr ""
+
+#. TRANSLATORS: Professional plugin version advanced information
+#: admin/class-global.php:342
+msgid "All of the premium features plus:"
+msgstr ""
+
+#. TRANSLATORS: Professional plugin version advanced information
+#: admin/class-global.php:344
+msgid ""
+"Added - SVG TextPaths.  Now text can go in any direction you can imagine! "
+"And it will still resize as the user types!"
+msgstr ""
+
+#. TRANSLATORS: Professional plugin version advanced information
+#: admin/class-global.php:346
+msgid ""
+"Added - SVG Filter Effects and Masks. Really make that text stand out! Or "
+"drop in to simulate an engraved effect!"
+msgstr ""
+
+#. TRANSLATORS: Professional plugin price prefix
+#: admin/class-global.php:348
+msgid "And still only"
+msgstr ""
+
+#. TRANSLATORS: Layout selection label on the settings page
+#: admin/class-layout.php:65 admin/class-products.php:141
+msgid "Choose layout"
+msgstr ""
+
+#. TRANSLATORS: delete layout prompt text
+#: admin/class-layout.php:67
+msgid "Delete layout"
+msgstr ""
+
+#. TRANSLATORS: label for the new name field when a layout is renamed or copied to a new name
+#: admin/class-layout.php:82
+msgid "New name"
+msgstr ""
+
+#. TRANSLATORS: copy layout button text
+#: admin/class-layout.php:87
+msgid "Copy to new name"
+msgstr ""
+
+#. TRANSLATORS: rename layout prompt text
+#: admin/class-layout.php:92
+msgid "Change name"
+msgstr ""
+
+#. TRANSLATORS: Center aligned text
+#: admin/class-layout.php:115
+msgid "Center"
+msgstr "Centre"
+
+#. TRANSLATORS: Left aligned text
+#: admin/class-layout.php:117
+msgid "Left"
+msgstr ""
+
+#. TRANSLATORS: Right aligned text
+#: admin/class-layout.php:119
+msgid "Right"
+msgstr ""
+
+#. TRANSLATORS: prompt for maximum number of lines in layout
+#: admin/class-layout.php:125
+msgid "Maximum possible lines"
+msgstr ""
+
+#. TRANSLATORS: Update layout button text
+#. TRANSLATORS: update button text
+#: admin/class-layout.php:132 admin/class-wcp-object.php:95
+msgid "Update"
+msgstr ""
+
+#. TRANSLATORS: Prompt for choosing how many lines to format
+#: admin/class-layout.php:141
+msgid "Format for"
+msgstr ""
+
+#. TRANSLATORS: cancel modifications link
+#: admin/class-layout.php:148 admin/class-wcp-object.php:109
+msgid "Cancel changes"
+msgstr ""
+
+#. TRANSLATORS: Prompt for choosing the font size to work with
+#: admin/class-layout.php:154
+msgid "Choose font size"
+msgstr ""
+
+#. TRANSLATORS: Minimum font label used on settings page
+#: admin/class-layout.php:157 admin/class-layout.php:175
+msgid "Min Font"
+msgstr ""
+
+#. TRANSLATORS: Maximum font label used on settings page
+#: admin/class-layout.php:159 admin/class-layout.php:176
+msgid "Max Font"
+msgstr ""
+
+#. TRANSLATORS: Text alignment table heading
+#: admin/class-layout.php:172
+msgid "Align"
+msgstr ""
+
+#. TRANSLATORS: Field width table heading
+#: admin/class-layout.php:174
+msgid "Width"
+msgstr ""
+
+#. TRANSLATORS: Heading in table to let user know checkboxes are used to make the fields identical for all lines
+#: admin/class-layout.php:212
+msgid "Make same"
+msgstr ""
+
+#. TRANSLATORS: Attribute selection table heading - Premium/Professional versions only
+#: admin/class-layout.php:259
+msgid "Attributes"
+msgstr ""
+
+#. TRANSLATORS: Textpath selection table heading  - Professional version only
+#. TRANSLATORS: textpath entry area label
+#. TRANSLATORS: User friendly name of an SVG TextPath
+#: admin/class-layout.php:270 admin/class-textpath.php:87
+#: common/class-textpath.php:64
+msgid "TextPath"
+msgstr ""
+
+#. TRANSLATORS: Error message when a customer tries to put too much text on a line when they can use more lines
+#: admin/class-layout.php:329
+msgid "Text too wide - paragraph"
+msgstr ""
+
+#. TRANSLATORS: Error message when a customer tries to have too many lines for the current layout
+#: admin/class-layout.php:333
+msgid "Too many lines"
+msgstr ""
+
+#. TRANSLATORS: Error message when a customer tries to put too much text on a line when they can only use one line
+#: admin/class-layout.php:337
+msgid "Text too wide - text field"
+msgstr ""
+
+#. TRANSLATORS: Informational message when a customer uses a Microsoft internet explorer or edge browser
+#: admin/class-layout.php:342
+msgid "Microsoft browsers"
+msgstr ""
+
+#. TRANSLATORS: Attribute selection table heading - Premium/Professional versions only
+#: admin/class-layout.php:368
+msgid "Attribute"
+msgstr ""
+
+#. TRANSLATORS: Color of font in use
+#: admin/class-layout.php:410
+msgid "Font Color"
+msgstr "Font Colour"
+
+#. TRANSLATORS: Colour of rectangles being used to size min or max font as selected
+#: admin/class-layout.php:417
+msgid "Current Font Box"
+msgstr ""
+
+#. TRANSLATORS: Colour of rectangles being used indicate non selected font
+#: admin/class-layout.php:424
+msgid "Non Selected Box"
+msgstr ""
+
+#. TRANSLATORS: Heading for layout operations panel
+#. TRANSLATORS: help tab label
+#: admin/class-layout.php:452 admin/class-layout.php:553
+msgid "Layout Operations"
+msgstr ""
+
+#. TRANSLATORS: Heading for layout formatting panel
+#. TRANSLATORS: help tab label
+#: admin/class-layout.php:459 admin/class-layout.php:563
+msgid "Format Layout"
+msgstr ""
+
+#. TRANSLATORS: Heading for variation attribute selection section - Premium/Professional versions only
+#. TRANSLATORS: help tab label - Premium/Professional versions only
+#: admin/class-layout.php:467 admin/class-layout.php:583
+msgid "Advanced Layout"
+msgstr ""
+
+#. TRANSLATORS: Heading for end customer error messages panel
+#: admin/class-layout.php:475
+msgid "Customer Error Messages"
+msgstr ""
+
+#. TRANSLATORS: Heading for style preview section - Premium/Professional versions only
+#. TRANSLATORS: variation preview help tab label  - Premium/Professional versions only
+#: admin/class-layout.php:483 admin/class-layout.php:620
+msgid "Variation Preview"
+msgstr ""
+
+#. TRANSLATORS: Heading for layout color selection
+#. TRANSLATORS: Layout color choices help tab label
+#: admin/class-layout.php:491 admin/class-layout.php:631
+msgid "Layout Colors"
+msgstr "Layout Colours"
+
+#. TRANSLATORS: help tab label
+#: admin/class-layout.php:520
+msgid "Overview"
+msgstr ""
+
+#. TRANSLATORS: settings screen overview help text
+#: admin/class-layout.php:523
+msgid ""
+"This screen enables you to create, modify and copy layouts for any products "
+"that need real-time customer previews."
+msgstr ""
+
+#. TRANSLATORS: Image help tab label
+#: admin/class-layout.php:531
+msgid "Images"
+msgstr ""
+
+#. TRANSLATORS: help text about use of product image used on the layout
+#: admin/class-layout.php:534
+msgid ""
+"The chosen product image is saved with the layout but is not used in the "
+"store. The same (or similar) product image should be set on each product "
+"that uses the layout."
+msgstr ""
+
+#. TRANSLATORS: help text about overlay image requirements - premium/professional only
+#: admin/class-layout.php:538
+msgid ""
+"The overlay image is shown in the store on any products that use the layout. "
+"When using an overlay image, it must have a transparent background."
+msgstr ""
+
+#. TRANSLATORS: help text about product image requirements when a background image is wanted - premium/professional only
+#: admin/class-layout.php:541
+msgid ""
+"Product background images are set when editing a product. To have a "
+"background image for your product, the main product image (and any variation "
+"images) must have a transparent background. These are set on the product "
+"edit page, not here."
+msgstr ""
+
+#. TRANSLATORS: help text about using transparent images - premium/professional only
+#: admin/class-layout.php:544
+msgid ""
+"Images with a transparent background will almost certainly be a *.png "
+"(Portable Network Graphics) file. It is *NOT* possible with any form of a *."
+"jpg file."
+msgstr ""
+
+#. TRANSLATORS: settings screen layout operations meta box help
+#: admin/class-layout.php:556
+msgid "Save, copy, rename or delete layouts here."
+msgstr ""
+
+#. TRANSLATORS: settings screen format layout meta box help - overview
+#: admin/class-layout.php:566
+msgid ""
+"Change the number of lines available in a layout. For each line count "
+"specify the formatting of the lines."
+msgstr ""
+
+#. TRANSLATORS: format - use of font radio buttons
+#: admin/class-layout.php:569
+msgid "Use the Max Font and Min Font radio buttons to change the view."
+msgstr ""
+
+#. TRANSLATORS: format - using make same check boxes
+#: admin/class-layout.php:572
+msgid ""
+"If the \"make same\" checkboxes are ticked then that value will be set for "
+"all lines for the current number of lines.  When ticking an empty box, all "
+"of the lines are made the same as the highlighted line."
+msgstr ""
+
+#. TRANSLATORS: format - use of mouse
+#: admin/class-layout.php:575
+msgid ""
+"The formats (width, font size, and position) can also be modified using the "
+"mouse."
+msgstr ""
+
+#. TRANSLATORS: settings screen advanced format meta box help - overview  - Premium/Professional versions only
+#: admin/class-layout.php:586
+msgid ""
+"The lines shown in this box correspond to the same lines in the Format "
+"Layout box."
+msgstr ""
+
+#. TRANSLATORS: advanced format - use of attributes - Premium/Professional versions only
+#: admin/class-layout.php:589
+msgid ""
+"By setting one or more attributes for a line, the variation value(s) (slug) "
+"with a \"wcp-\" prefix will be added as one or more classes to the line when "
+"shown in the store."
+msgstr ""
+
+#. TRANSLATORS: advanced format - linking attributes to values and CSS styles - Premium/Professional versions only
+#: admin/class-layout.php:592
+msgid ""
+"When the customer chooses a value, with the use of the appropriate CSS "
+"styles, this can be used to set the font style, color, etc.  The attribute "
+"values can be set for the catalog images on a per product basis."
+msgstr ""
+"When the customer chooses a value, with the use of the appropriate CSS "
+"styles, this can be used to set the font style, colour, etc.  The attribute "
+"values can be set for the catalogue images on a per product basis."
+
+#. TRANSLATORS: advanced format - additional CSS - Premium/Professional versions only
+#: admin/class-layout.php:595
+msgid "You can also add fixed CSS to a line."
+msgstr ""
+
+#. TRANSLATORS: advanced format - assigning a textpath  - Professional version only
+#: admin/class-layout.php:599
+msgid ""
+"Applying one of the TextPaths means the text follows the path uses the x and "
+"y if path starts at origin."
+msgstr ""
+
+#. TRANSLATORS: Customer error messages help tab label
+#: admin/class-layout.php:609
+msgid "Customer Messages"
+msgstr ""
+
+#. TRANSLATORS: Customer error messages overview
+#: admin/class-layout.php:612
+msgid ""
+"These are the messages shown to the customer when the text they type cannot "
+"be displayed using the applied format.  They can be set on a per layout "
+"basis."
+msgstr ""
+
+#. TRANSLATORS: settings screen variation preview meta box help - Premium feature
+#: admin/class-layout.php:623
+msgid ""
+"If the current format has attributes associated with it, the selections here "
+"enable you to preview the effect of changing the attribute values - assuming "
+"that the CSS styles are set.  These values are not saved."
+msgstr ""
+
+#. TRANSLATORS: settings screen color selection meta box help
+#: admin/class-layout.php:634
+msgid ""
+"Here you can change the formatting colors used to suit the chosen image."
+msgstr ""
+"Here you can change the formatting colours used to suit the chosen image."
+
+#. TRANSLATORS: Used when selecting formats for multiple (>1) lines
+#: admin/class-layout.php:677
+msgid "line"
+msgid_plural "lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: Used when formatting just one line
+#: admin/class-layout.php:680
+msgid "Single Line"
+msgstr ""
+
+#. TRANSLATORS: Numbers up to 10
+#: admin/class-layout.php:682
+msgid "Two"
+msgstr ""
+
+#: admin/class-layout.php:683
+msgid "Three"
+msgstr ""
+
+#: admin/class-layout.php:684
+msgid "Four"
+msgstr ""
+
+#: admin/class-layout.php:685
+msgid "Five"
+msgstr ""
+
+#: admin/class-layout.php:686
+msgid "Six"
+msgstr ""
+
+#: admin/class-layout.php:687
+msgid "Seven"
+msgstr ""
+
+#: admin/class-layout.php:688
+msgid "Eight"
+msgstr ""
+
+#: admin/class-layout.php:689
+msgid "Nine"
+msgstr ""
+
+#: admin/class-layout.php:690
+msgid "Ten"
+msgstr ""
+
+#. TRANSLATORS: warning message when making change to layout is potentially damaging
+#: admin/class-layout.php:695
+msgid ""
+"Reducing maximum number of lines will cause loss of formatting information. "
+"Are you sure?"
+msgstr ""
+
+#. TRANSLATORS: prompt for selection of a product image to create a layout for
+#: admin/class-layout.php:722
+msgid "Choose Product Image"
+msgstr ""
+
+#. TRANSLATORS: media browser title when selecting product image
+#: admin/class-layout.php:727
+msgid "Select layout product image"
+msgstr ""
+
+#. TRANSLATORS: media browser button text when selecting product image
+#: admin/class-layout.php:729
+msgid "Set Layout Image"
+msgstr ""
+
+#. TRANSLATORS: prompt for selection of an overlay/foreground image to put in front of the product - Premium/Professional versions only
+#: admin/class-layout.php:735
+msgid "Choose Overlay Image"
+msgstr ""
+
+#. TRANSLATORS: media browser title when selecting overlay image
+#: admin/class-layout.php:740
+msgid "Select overlay image"
+msgstr ""
+
+#. TRANSLATORS: media browser button text when selecting overlay image
+#: admin/class-layout.php:742
+msgid "Set Overlay Image"
+msgstr ""
+
+#. TRANSLATORS: prompt for removal of the overlay image - Premium/Professional versions only
+#: admin/class-layout.php:747
+msgid "Remove Overlay Image"
+msgstr ""
+
+#: admin/class-layout.php:765
+msgid ""
+"Click on the link below to load a product image here to assist with the "
+"formatting of the layout."
+msgstr ""
+
+#: admin/class-layout.php:769
+msgid "The chosen image is saved with the layout but is not used in the store."
+msgstr ""
+
+#: admin/class-layout.php:773
+msgid ""
+"The same (or similar) product image needs to be set on each product that "
+"uses the layout."
+msgstr ""
+
+#. TRANSLATORS: Error message when plugin dependencies are not available and plugin deactivates itself
+#: admin/class-plugin.php:133
+#, php-format
+msgid "has deactivated itself because it needs %s to be active."
+msgstr ""
+
+#. TRANSLATORS: text used as plugin data tab on product page
+#: admin/class-products.php:83
+msgid "Wysiwyg Customization"
+msgstr "Wysiwyg Customisation"
+
+#. TRANSLATORS: text used as WCP attribute data tab on product page  - Premium/Professional versions only
+#: admin/class-products.php:90
+msgid "Wysiwyg Attributes"
+msgstr ""
+
+#. TRANSLATORS: text used as plugin form data tab on product page - Premium/Professional versions only
+#: admin/class-products.php:97
+msgid "Wysiwyg Fields"
+msgstr ""
+
+#. TRANSLATORS: prompt for the static text to be shown when this product is being listed on catalog pages
+#: admin/class-products.php:146
+msgid "Catalog text"
+msgstr "Catalogue text"
+
+#. TRANSLATORS: description about the static text to be shown when this product is being listed on catalog pages
+#: admin/class-products.php:148
+msgid ""
+"Optional: Lines of text to be displayed on product list pages. Product title "
+"is used if left empty. Use --- for blank image."
+msgstr ""
+
+#. TRANSLATORS: text used to prompt when product uses a specified number of lines from the layout - Premium/Professional versions only
+#: admin/class-products.php:156
+msgid "Predefined lines"
+msgstr ""
+
+#. TRANSLATORS: description for when product uses a specified number of lines from the layout - Premium/Professional versions only
+#: admin/class-products.php:158
+msgid "If a definite number of lines, enter here. Leave 0 for variable."
+msgstr ""
+
+#. TRANSLATORS: prompt for any static text to be shown when the product is being edited - Premium/Professional versions only
+#: admin/class-products.php:164
+msgid "Predefined product text"
+msgstr ""
+
+#. TRANSLATORS: description and brief instructions about static text to be shown when the product is being edited - Premium/Professional versions only
+#: admin/class-products.php:166
+msgid "Type fixed text for product. Use | to separate lines"
+msgstr ""
+
+#. TRANSLATORS: prompt for text resizing options - Premium/Professional versions only
+#: admin/class-products.php:182
+msgid "Text resizing"
+msgstr ""
+
+#. TRANSLATORS: description and brief instructions about how the resizing options work when the product is being edited - Premium/Professional versions only
+#: admin/class-products.php:184
+msgid ""
+"The first option causes all of the text lines resize to the smallest font "
+"size required to display the customer's message. The second option causes "
+"each line to resize to the smallest font suitable for that line."
+msgstr ""
+
+#. TRANSLATORS: screen reader text - Premium/Professional versions only
+#: admin/class-products.php:194
+msgid "Toggle panel: Background Image"
+msgstr ""
+
+#. TRANSLATORS: heading for the image to be shown behind the product - Premium/Professional versions only
+#: admin/class-products.php:198
+msgid "Background Image"
+msgstr ""
+
+#. TRANSLATORS: title for the media browser when selecting the background image - Premium/Professional versions only
+#: admin/class-products.php:211
+msgid "Select background image"
+msgstr ""
+
+#. TRANSLATORS: button text for the media browser when selecting the background image - Premium/Professional versions only
+#: admin/class-products.php:213
+msgid "Set Background"
+msgstr ""
+
+#. TRANSLATORS: prompt for changing the background image
+#: admin/class-products.php:230
+msgid "Click the image to edit or update"
+msgstr ""
+
+#. TRANSLATORS: prompt for deleting the background image
+#: admin/class-products.php:232
+msgid "Remove background image"
+msgstr ""
+
+#. TRANSLATORS: prompt to set the background image when none is chosen - Premium/Professional versions only
+#: admin/class-products.php:237
+msgid "Set background image"
+msgstr ""
+
+#. TRANSLATORS: Attribute value selection description on product edit page - Premium/Professional versions only
+#: admin/class-products.php:298
+msgid "Select attribute value for use in catalog"
+msgstr "Select attribute value for use in catalogue"
+
+#. TRANSLATORS: Warning and instructions when there are no product attributes value on product edit page - Premium/Professional versions only
+#: admin/class-products.php:308
+msgid ""
+"There are no attributes for this product. Create them using the Attributes "
+"tab."
+msgstr ""
+
+#. TRANSLATORS: Prompt for entering current form field label - Premium/Professional versions only
+#: admin/class-products.php:335
+msgid "Field Label"
+msgstr ""
+
+#. TRANSLATORS: Description for entering current form field label replacement - Premium/Professional versions only
+#: admin/class-products.php:337
+msgid "Enter label as displayed to the customer on the order form"
+msgstr ""
+
+#. TRANSLATORS: Prompt for entering form field label replacement - Premium/Professional versions only
+#: admin/class-products.php:341
+msgid "New Label"
+msgstr ""
+
+#. TRANSLATORS: Description for entering form field label replacement - Premium/Professional versions only
+#: admin/class-products.php:343
+msgid "Optional override of label on the order form"
+msgstr ""
+
+#. TRANSLATORS: Prompt for entering Options for the form field - Premium/Professional versions only
+#: admin/class-products.php:347
+msgid "Option List"
+msgstr ""
+
+#. TRANSLATORS: Placeholder for entering Options for the form field - Premium/Professional versions only
+#: admin/class-products.php:349
+msgid ""
+"Put each option on a separate line. Use | to force line breaks within an "
+"option."
+msgstr ""
+
+#. TRANSLATORS: Description for entering Options for the form field - Premium/Professional versions only
+#: admin/class-products.php:352
+msgid ""
+"List of options to be presented to the customer. Put each option on a "
+"separate line. Use | to force line breaks within an option."
+msgstr ""
+
+#. TRANSLATORS: Message about suitable browsers for doing layout.
+#: admin/class-settings.php:142
+msgid ""
+"Due to the lack of proper SVG support, layouts can not be set using Internet "
+"Explorer or Edge. Chrome or Firefox are recommended."
+msgstr ""
+
+#. TRANSLATORS: warning when leaving the layout edit page with unsaved changes
+#: admin/class-settings.php:265
+msgid "Changes will be lost. Are you sure you want to leave?"
+msgstr ""
+
+#. TRANSLATORS: confirmation that the user wants to delete the selected layout
+#: admin/class-settings.php:268
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#. TRANSLATORS: confirmation that the user wants to cancel any changes
+#: admin/class-settings.php:270
+msgid "Are you sure you wish to lose any changes?"
+msgstr ""
+
+#. TRANSLATORS: Entering an SVG TextPath help label
+#: admin/class-textpath.php:48
+msgid "Defining a TextPath"
+msgstr ""
+
+#. TRANSLATORS: Entering an SVG TextPath
+#: admin/class-textpath.php:51
+msgid ""
+"Create paths by pasting or typing the 'path' or 'd' value here. Don't start "
+"with a move (M or m) or use M 0 0 so that the x and y positions can be "
+"applied in the layout screen."
+msgstr ""
+
+#. TRANSLATORS: Item selection label on the settings page
+#: admin/class-wcp-object.php:68
+#, php-format
+msgid "Choose %s"
+msgstr ""
+
+#. TRANSLATORS: delete button text
+#: admin/class-wcp-object.php:78
+msgid "Delete"
+msgstr ""
+
+#. TRANSLATORS: name of an item entry field label
+#: admin/class-wcp-object.php:86
+msgid "Name"
+msgstr ""
+
+#. TRANSLATORS: save as button text
+#: admin/class-wcp-object.php:102
+msgid "Save as"
+msgstr ""
+
+#. TRANSLATORS: User friendly name of an SVG Mask
+#: common/class-effect.php:67
+msgid "SVG Mask"
+msgstr ""
+
+#. TRANSLATORS: User friendly name of an SVG Mask
+#: common/class-effect.php:70
+msgid "SVG Filter Effect"
+msgstr ""
+
+#. TRANSLATORS: User friendly name of an Effect - a collection of SVG effect elements
+#: common/class-effect.php:73
+msgid "Effect"
+msgstr ""
+
+#. TRANSLATORS: Exception error message thrown when the layout is invalid
+#: common/class-layout.php:223
+msgid "Invalid Wysiwyg Custom Products format supplied. Error: "
+msgstr ""
+
+#. TRANSLATORS: Exception error message thrown when the list of layout names is invalid
+#: common/class-layout.php:253
+msgid "Wysiwyg Custom Products layouts have been corrupted"
+msgstr ""
+
+#. TRANSLATORS: text used when customer uses too long a text in a text area
+#: common/class-layout.php:1046
+msgid ""
+"Please continue with message. Press [Enter] for new lines - type size will "
+"adjust. Tip: Edit line breaks to get desired layout."
+msgstr ""
+
+#. TRANSLATORS: text used when customer uses too many lines in a text area
+#: common/class-layout.php:1051
+msgid "Sorry, that's too many lines."
+msgstr ""
+
+#. TRANSLATORS: text used when customer uses too long a text in a single text input
+#: common/class-layout.php:1055
+msgid "Text is too long to fit. Please check length of text."
+msgstr ""
+
+#. TRANSLATORS: text used when to let customer know that Edge or IE aren't the best
+#: common/class-layout.php:1060
+msgid ""
+"This site uses internet standards (SVG) that are not fully supported by "
+"Microsoft browsers (Edge or Internet Explorer). The preview images are best "
+"viewed using Chrome or Firefox."
+msgstr ""
+
+#. TRANSLATORS: Exception error message thrown when the textPath fails validation tests
+#: common/class-svg-textpath-helper.php:281
+msgid "Invalid TextPath supplied : "
+msgstr ""
+
+#. TRANSLATORS: Exception error message thrown when the list of object names is invalid
+#: common/class-wcp-object.php:154
+#, php-format
+msgid "Wysiwyg Custom Products %s have been corrupted"
+msgstr ""
+
+#. TRANSLATORS: Heading used for new item creation on the settings page
+#: common/class-wcp-object.php:507
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#. TRANSLATORS: Exception error message thrown when the object is invalid
+#: common/class-wcp-object.php:766
+#, php-format
+msgid "Invalid Wysiwyg Custom Products %s supplied. Error: "
+msgstr ""
+
+#. TRANSLATORS: Name of plugin - premium version
+#: wysiwyg-custom-products.php:285
+msgid "Wysiwyg Custom Products Premium"
+msgstr ""
+
+#. TRANSLATORS: Name of plugin - professional version
+#: wysiwyg-custom-products.php:287
+msgid "Wysiwyg Custom Products Professional"
+msgstr ""
+
+#. TRANSLATORS: Name of plugin - free version
+#: wysiwyg-custom-products.php:299
+msgid "Wysiwyg Custom Products"
+msgstr ""
+
+#. TRANSLATORS: Tab on the settings menu
+#: wysiwyg-custom-products.php:303
+msgid "Wysiwyg Customize"
+msgstr "Wysiwyg Customise"
+
+#. TRANSLATORS: Error message for insufficient PHP version
+#: wysiwyg-custom-products.php:435
+msgid "PHP Version 5.6.2 or above"
+msgstr ""
+
+#. TRANSLATORS: Error message when plugin dependencies are not available %s is a list of requirements
+#: wysiwyg-custom-products.php:442
+#, php-format
+msgid "Plugin cannot be activated because it needs %s."
+msgstr ""
+
+#. TRANSLATORS: Error message when plugin cannot load layouts
+#: wysiwyg-custom-products.php:471
+msgid ""
+"Plugin cannot be activated because it failed to load the layouts with the "
+"following error:"
+msgstr ""

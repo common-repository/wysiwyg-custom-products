@@ -1,0 +1,18 @@
+/*<editor-fold desc="Free">*/
+/* Font listed below was obtained from https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+/*</editor-fold>*/
+
+:root {
+    --y-offset: 0;
+    --x-offset: 0;
+    --y-offset-fontsize-multiplier: 0.4;
+    /* Provides approximation of vertical centering when dominant
+      baseline is not implemented in SVG */
+}
+
+.wcp {
+    font-family: 'Courgette', cursive;
+    fill: black
+}
+

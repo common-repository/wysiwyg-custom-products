@@ -1,0 +1,34 @@
+div.wcp {
+    line-height: 1;
+}
+
+canvas.wcp-canvas {
+    font-size: 75px;
+}
+
+.wcp-hidden {
+    display: none !important;
+}
+
+p.wcp-lost-text {
+    font-weight: bolder;
+    background-color: #CCCCCC;
+    padding: 0.5em 10px;
+}
+
+.wcp-download-image {
+    background-color: #dfdcde !important;
+}
+
+.woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {
+    width: 150px !important;
+    text-align: center !important;
+}
+
+td.product-thumbnail {
+    display: block !important;
+}
+
+td.product-thumbnail::before, td.product-thumbnail > a, td.product-thumbnail > a > img {
+    content: none !important;
+}
